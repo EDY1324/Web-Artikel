@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-image:url(image/SunsetBooks.jpeg);
+    background-size: cover;
 }
 
 header {
-    background: #fff;
+    background: gray;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -16,6 +17,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: #fff;
 }
 
 .header-container {
@@ -42,7 +44,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 
 .container {
@@ -63,6 +65,7 @@ main {
 .featured h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .grid {
@@ -122,11 +125,12 @@ aside a {
 footer {
     text-align: center;
     padding: 20px;
-    background: #fff;
+    background: #333;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: 0;
     width: 97,5%;
+    color: white;
 }
 
 footer p {

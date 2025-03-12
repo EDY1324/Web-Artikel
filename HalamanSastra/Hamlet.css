@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-image:url(image/SunsetBooks.jpeg);
+    background-image:url(/image/SunsetBooks.jpeg);
     background-size: cover;
 }
 
@@ -47,48 +47,56 @@ nav ul li a {
     color: #fff;
 }
 
-.container {
-    width: 80%;
+#content {
+    max-width: 800px;
     margin: 20px auto;
-    background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
-
-h2 {
-    color: #343a40;
+.pler h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+} 
+.pler h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
 }
-
-form {
-    display: flex;
-    flex-direction: column;
+.pler p {
+    text-align: justify;
 }
-
-label {
-    margin-top: 10px;
+.infobox {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 250px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 0.9em;
 }
-
-input, textarea {
+.infobox img {
     width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    height: auto;
 }
-
-button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.infobox-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
 }
-
-button:hover {
-    background-color: #0056b3;
+.infobox-content {
+    margin-bottom: 10px;
+}
+.infobox-content b {
+    display: inline-block;
+    width: 100px;
+}
+.references {
+    font-size: 0.9em;
+}
+.reference {
+    margin-bottom: 5px;
 }
 
 footer {
@@ -98,7 +106,7 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: 0;
-    width: 97,5%;
+    width: 97.9%;
     color: white;
 }
 
