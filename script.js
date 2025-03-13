@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     async function fetchArticles() {
         try {
-            const response = await fetch("https://public-api.wordpress.com/wp/v2/sites/kazlibraries.wordpress.com/posts");
+            const response = await fetch("https://public-api.wordpress.com/wp/v2/sites/kazlibraries.wordpress.com/posts?per_page=4");
             const data = await response.json();
             return data;
         } catch (error) {

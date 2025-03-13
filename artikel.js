@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const articlesContainer = document.getElementById("articles");
     const searchInput = document.getElementById("search");
 
-    const API_URL = "https://public-api.wordpress.com/wp/v2/sites/kazlibraries.wordpress.com/posts";
+    const API_URL = "https://public-api.wordpress.com/wp/v2/sites/kazlibraries.wordpress.com/posts?per_page=50";
 
     async function fetchArticles() {
         try {

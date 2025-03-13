@@ -4,14 +4,13 @@ body {
     padding: 0;
     line-height: 1.6;
     text-align: center;
-    background-image:url(image/SunsetBooks.jpeg);
-    background-size: cover;
+    background:#e6e5e5;
 }
 
 header {
     background: gray;
     padding: 20px;
-    text-align: center;
+    text-align: start;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -21,8 +20,8 @@ header {
 
 .header-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
 }
 
 .logo {
